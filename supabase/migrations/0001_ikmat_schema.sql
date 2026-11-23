@@ -132,6 +132,10 @@ end $$;
 drop trigger if exists runde_last on runde;
 create trigger runde_last before update on runde for each row execute function ikmat_runde_last();
 
+-- ---------- Tilgang for Data API (bare innloggede, aldri anonyme) ----------
+grant usage on schema public to authenticated;
+grant select, insert, update, delete on stevne, stevne_dag, plan_sted, runde, runde_sted, svar, avvik to authenticated;
+
 -- ---------- Tilgang (Row Level Security) ----------
 -- Testfase: alle innloggede brukere i prosjektet er IK-mat-teamet (ny registrering slås av i Supabase).
 -- Runder kan ikke slettes fra appen. Avvik bare mens runden pågår (trigger).
