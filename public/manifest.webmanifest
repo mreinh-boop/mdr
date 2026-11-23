@@ -1,0 +1,9 @@
+{
+  "name": "IK-mat Kontroll",
+  "short_name": "IK-mat",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F3F5EC",
+  "theme_color": "#004E48",
+  "icons": [{ "src": "/ikon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

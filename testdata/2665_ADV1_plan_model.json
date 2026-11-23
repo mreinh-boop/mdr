@@ -1,0 +1,686 @@
+{
+    "event":  "ADV1",
+    "eventNavn":  "ADVENTSSTEVNE 1 · 2665",
+    "eventNr":  "2665",
+    "dager":  [
+                  46353,
+                  46354,
+                  46355
+              ],
+    "kiosker":  [
+                    {
+                        "navn":  "SnackStop KSN",
+                        "gjenganger":  false,
+                        "ukjent":  false,
+                        "tider":  [
+                                      "16:00–23:00 · ⚠ ubekreftet",
+                                      "08:00–23:00",
+                                      "08:00–14:00"
+                                  ]
+                    },
+                    {
+                        "navn":  "Le Café",
+                        "gjenganger":  true,
+                        "ukjent":  false,
+                        "tider":  [
+                                      "18:00–19:30 · 21:00–22:30",
+                                      "13:00–19:00",
+                                      "09:30–11:00"
+                                  ]
+                    },
+                    {
+                        "navn":  "Snadder",
+                        "gjenganger":  false,
+                        "ukjent":  false,
+                        "tider":  [
+                                      "",
+                                      "",
+                                      ""
+                                  ]
+                    },
+                    {
+                        "navn":  "Sporty",
+                        "gjenganger":  true,
+                        "ukjent":  false,
+                        "tider":  [
+                                      "21:30–00:00",
+                                      "10:00–17:00 · 21:30–00:00",
+                                      ""
+                                  ]
+                    },
+                    {
+                        "navn":  "Juleboder",
+                        "gjenganger":  false,
+                        "ukjent":  false,
+                        "tider":  [
+                                      "18:00–19:00 · 21:30–00:00",
+                                      "10:00–17:00 · 21:30–00:00",
+                                      "09:00–10:30"
+                                  ]
+                    },
+                    {
+                        "navn":  "Vaffelbod",
+                        "gjenganger":  false,
+                        "ukjent":  true,
+                        "tider":  [
+                                      "ubekreftet",
+                                      "ubekreftet",
+                                      "ubekreftet"
+                                  ]
+                    }
+                ],
+    "mat":  [
+                {
+                    "ser":  46353,
+                    "kind":  "kaffe",
+                    "sub":  "Kaffe \u0026 vann",
+                    "area":  "CCN",
+                    "label":  "Kaffe \u0026 vann CCN",
+                    "tid":  "16:00–22:00",
+                    "notes":  [
+
+                              ],
+                    "kort":  [
+
+                             ],
+                    "rad":  18
+                },
+                {
+                    "ser":  46353,
+                    "kind":  "kaffe",
+                    "sub":  "Kaffe \u0026 vann",
+                    "area":  "CCS",
+                    "label":  "Kaffe \u0026 vann CCS",
+                    "tid":  "16:00–22:00",
+                    "notes":  [
+
+                              ],
+                    "kort":  [
+
+                             ],
+                    "rad":  18
+                },
+                {
+                    "ser":  46353,
+                    "kind":  "kaffe",
+                    "sub":  "Vannstasjon",
+                    "area":  "OA",
+                    "label":  "Vannstasjon OA",
+                    "tid":  "16:00–23:00",
+                    "notes":  [
+
+                              ],
+                    "kort":  [
+
+                             ],
+                    "rad":  20
+                },
+                {
+                    "ser":  46353,
+                    "kind":  "utlevering",
+                    "sub":  "Pastabuffet barn",
+                    "area":  "CCS",
+                    "label":  "Pastabuffet barn CCS",
+                    "tid":  "17:00–19:00",
+                    "notes":  [
+                                  "Meny: pastabuffet barn (penne, carbonara- og tomatsaus)",
+                                  "VARM: varmholding ≥ 60 °C · 30-min-logg ført? · kjerne ≥ 72 °C (fisk 62) ved oppvarming",
+                                  "⚠ tid/innhold ubekreftet (QA i kjøreplan) — sjekk eventapp"
+                              ],
+                    "kort":  [
+                                 "varm",
+                                 "⚠ ubekreftet"
+                             ],
+                    "rad":  26
+                },
+                {
+                    "ser":  46353,
+                    "kind":  "utlevering",
+                    "sub":  "Middag (buffetstasjoner)",
+                    "area":  "CCS",
+                    "label":  "Buffet middag CCS",
+                    "tid":  "17:00–22:00",
+                    "notes":  [
+                                  "Meny: gulasj · kylling m/ saltbakte poteter (+ allergi-gulasj)",
+                                  "VARM: varmholding ≥ 60 °C · 30-min-logg ført? · kjerne ≥ 72 °C (fisk 62) ved oppvarming"
+                              ],
+                    "kort":  [
+                                 "varm"
+                             ],
+                    "rad":  30
+                },
+                {
+                    "ser":  46353,
+                    "kind":  "utlevering",
+                    "sub":  "Frokostpakke",
+                    "area":  "Festplassen",
+                    "label":  "Frokostpakke Festplassen",
+                    "tid":  "17:30–19:00",
+                    "notes":  [
+                                  "Meny: frokostpakke til lørdag + søndag",
+                                  "KALD pakke: kjølevarer ≤ +4 °C til utlevering · uttakstid notert · maks 2 t ute"
+                              ],
+                    "kort":  [
+                                 "kald"
+                             ],
+                    "rad":  31
+                },
+                {
+                    "ser":  46353,
+                    "kind":  "kaffe",
+                    "sub":  "Snacksstasjon",
+                    "area":  "CCN",
+                    "label":  "Snacksstasjon CCN",
+                    "tid":  "18:00–22:00",
+                    "notes":  [
+
+                              ],
+                    "kort":  [
+
+                             ],
+                    "rad":  32
+                },
+                {
+                    "ser":  46353,
+                    "kind":  "kaffe",
+                    "sub":  "Snacksstasjon",
+                    "area":  "CCS",
+                    "label":  "Snacksstasjon CCS",
+                    "tid":  "18:00–22:00",
+                    "notes":  [
+
+                              ],
+                    "kort":  [
+
+                             ],
+                    "rad":  32
+                },
+                {
+                    "ser":  46353,
+                    "kind":  "utlevering",
+                    "sub":  "Frokostpakke",
+                    "area":  "Festplassen",
+                    "label":  "Frokostpakke Festplassen",
+                    "tid":  "21:00–22:00",
+                    "notes":  [
+                                  "Meny: frokostpakke til lørdag + søndag",
+                                  "KALD pakke: kjølevarer ≤ +4 °C til utlevering · uttakstid notert · maks 2 t ute"
+                              ],
+                    "kort":  [
+                                 "kald"
+                             ],
+                    "rad":  39
+                },
+                {
+                    "ser":  46354,
+                    "kind":  "kaffe",
+                    "sub":  "Kaffe, vann \u0026 snacks",
+                    "area":  "CCN",
+                    "label":  "Kaffe, vann \u0026 snacks CCN",
+                    "tid":  "09:00–22:00",
+                    "notes":  [
+
+                              ],
+                    "kort":  [
+
+                             ],
+                    "rad":  56
+                },
+                {
+                    "ser":  46354,
+                    "kind":  "kaffe",
+                    "sub":  "Kaffe \u0026 vann",
+                    "area":  "OA",
+                    "label":  "Kaffe \u0026 vann OA",
+                    "tid":  "09:00–22:00",
+                    "notes":  [
+
+                              ],
+                    "kort":  [
+
+                             ],
+                    "rad":  57
+                },
+                {
+                    "ser":  46354,
+                    "kind":  "kaffe",
+                    "sub":  "Kaffe, vann \u0026 snacks",
+                    "area":  "CCS",
+                    "label":  "Kaffe, vann \u0026 snacks CCS",
+                    "tid":  "10:00–22:00",
+                    "notes":  [
+
+                              ],
+                    "kort":  [
+
+                             ],
+                    "rad":  60
+                },
+                {
+                    "ser":  46354,
+                    "kind":  "utlevering",
+                    "sub":  "Lunsj",
+                    "area":  "Foreplassen OA",
+                    "label":  "Lunsj Foreplassen OA",
+                    "tid":  "12:00–13:00",
+                    "notes":  [
+                                  "Meny: grillpølse (barn + allergi) · rundstykker karri/reke · pastasalat",
+                                  "GRILL: pølse kjerne ≥ 72 °C målt + notert · allergipølse fra varmeskap, holdt atskilt · rå/kald vare ≤ +4 °C til grill",
+                                  "KALD: ≤ +4 °C til utlevering · ute \u003c 10 °C, maks 2 t etter uttak"
+                              ],
+                    "kort":  [
+                                 "grill",
+                                 "kald"
+                             ],
+                    "rad":  65
+                },
+                {
+                    "ser":  46354,
+                    "kind":  "utlevering",
+                    "sub":  "Buffetstasjon",
+                    "area":  "Oasen CCS",
+                    "label":  "Buffet Oasen CCS",
+                    "tid":  "12:00–22:00",
+                    "notes":  [
+                                  "Meny: lunsj kald (rundstykker, pastasalat) · middag varm (biff stroganoff, medisterkake)",
+                                  "KALD: ≤ +4 °C til utlevering · ute \u003c 10 °C, maks 2 t etter uttak",
+                                  "VARM: varmholding ≥ 60 °C · 30-min-logg ført? · kjerne ≥ 72 °C (fisk 62) ved oppvarming"
+                              ],
+                    "kort":  [
+                                 "kald",
+                                 "varm"
+                             ],
+                    "rad":  66
+                },
+                {
+                    "ser":  46354,
+                    "kind":  "utlevering",
+                    "sub":  "Pastabuffet barn",
+                    "area":  "CCS",
+                    "label":  "Pastabuffet barn CCS",
+                    "tid":  "15:00–19:00",
+                    "notes":  [
+                                  "Meny: pastabuffet barn",
+                                  "VARM: varmholding ≥ 60 °C · 30-min-logg ført? · kjerne ≥ 72 °C (fisk 62) ved oppvarming",
+                                  "⚠ tid/innhold ubekreftet (QA i kjøreplan) — sjekk eventapp"
+                              ],
+                    "kort":  [
+                                 "varm",
+                                 "⚠ ubekreftet"
+                             ],
+                    "rad":  72
+                },
+                {
+                    "ser":  46354,
+                    "kind":  "utlevering",
+                    "sub":  "Middag",
+                    "area":  "Festplassen",
+                    "label":  "Middag Festplassen",
+                    "tid":  "16:30–17:30",
+                    "notes":  [
+                                  "Meny: biff stroganoff · medisterkake m/ potet, rødkål og brunsaus",
+                                  "VARM: varmholding ≥ 60 °C · 30-min-logg ført? · kjerne ≥ 72 °C (fisk 62) ved oppvarming"
+                              ],
+                    "kort":  [
+                                 "varm"
+                             ],
+                    "rad":  73
+                },
+                {
+                    "ser":  46354,
+                    "kind":  "utlevering",
+                    "sub":  "Kveldssnack",
+                    "area":  "Festplassen",
+                    "label":  "Kveldssnack Festplassen",
+                    "tid":  "20:45–21:15",
+                    "notes":  [
+                                  "Meny: eplekake · skogsbærkake (ferdigpakket) · GF eplekake skjæres på stedet",
+                                  "Ferdigpakket (romtemperatur) · allergen: GF eplekake skjæres fra hele kaker — egen kniv, fjøl og klype"
+                              ],
+                    "kort":  [
+                                 "allergen"
+                             ],
+                    "rad":  80
+                },
+                {
+                    "ser":  46355,
+                    "kind":  "kaffe",
+                    "sub":  "Kaffe, vann \u0026 snacks",
+                    "area":  "CCN",
+                    "label":  "Kaffe, vann \u0026 snacks CCN",
+                    "tid":  "09:00–14:00",
+                    "notes":  [
+
+                              ],
+                    "kort":  [
+
+                             ],
+                    "rad":  94
+                },
+                {
+                    "ser":  46355,
+                    "kind":  "kaffe",
+                    "sub":  "Kaffe \u0026 vann",
+                    "area":  "OA",
+                    "label":  "Kaffe \u0026 vann OA",
+                    "tid":  "09:00–14:00",
+                    "notes":  [
+
+                              ],
+                    "kort":  [
+
+                             ],
+                    "rad":  95
+                },
+                {
+                    "ser":  46355,
+                    "kind":  "kaffe",
+                    "sub":  "Kaffe, vann \u0026 snacks",
+                    "area":  "CCS",
+                    "label":  "Kaffe, vann \u0026 snacks CCS",
+                    "tid":  "10:00–14:00",
+                    "notes":  [
+
+                              ],
+                    "kort":  [
+
+                             ],
+                    "rad":  97
+                },
+                {
+                    "ser":  46355,
+                    "kind":  "utlevering",
+                    "sub":  "Zerofoodwaste",
+                    "area":  "Festplassen A",
+                    "label":  "Zerofood Festplassen A",
+                    "tid":  "10:00–14:00",
+                    "notes":  [
+                                  "Zerofood-regelen (grønn/gul/rød): siste forbruksdag passert eller i dag = kast · best før passert kun etter QA-frigivelse · varmet/åpnet/fra buffet = kast · kjølevarer ≤ +4 °C, maks 2 t ute"
+                              ],
+                    "kort":  [
+                                 "Zerofood-regelen"
+                             ],
+                    "rad":  99
+                },
+                {
+                    "ser":  46355,
+                    "kind":  "utlevering",
+                    "sub":  "Lunsj",
+                    "area":  "Festplassen",
+                    "label":  "Lunsj Festplassen",
+                    "tid":  "12:15–13:00",
+                    "notes":  [
+                                  "Meny: Grab \u0026 Go (kald) · thaisuppe (varm)",
+                                  "KALD: ≤ +4 °C til utlevering · ute \u003c 10 °C, maks 2 t etter uttak",
+                                  "VARM: varmholding ≥ 60 °C · 30-min-logg ført? · kjerne ≥ 72 °C (fisk 62) ved oppvarming"
+                              ],
+                    "kort":  [
+                                 "kald",
+                                 "varm"
+                             ],
+                    "rad":  102
+                },
+                {
+                    "ser":  46355,
+                    "kind":  "utlevering",
+                    "sub":  "Buffetstasjon",
+                    "area":  "Oasen CCS",
+                    "label":  "Buffet Oasen CCS",
+                    "tid":  "12:30–14:00",
+                    "notes":  [
+                                  "Meny: Grab \u0026 Go · thaisuppe",
+                                  "KALD: ≤ +4 °C til utlevering · ute \u003c 10 °C, maks 2 t etter uttak",
+                                  "VARM: varmholding ≥ 60 °C · 30-min-logg ført? · kjerne ≥ 72 °C (fisk 62) ved oppvarming",
+                                  "⚠ tid/innhold ubekreftet (QA i kjøreplan) — sjekk eventapp"
+                              ],
+                    "kort":  [
+                                 "kald",
+                                 "varm",
+                                 "⚠ ubekreftet"
+                             ],
+                    "rad":  103
+                }
+            ],
+    "dagmodell":  [
+                      {
+                          "ser":  46353,
+                          "ukedag":  "Fredag",
+                          "dato":  "27.11.",
+                          "info":  "Ankomst · stevnestart",
+                          "vinduerA":  [
+                                           "15:30–16:15",
+                                           "18:00–19:00",
+                                           "21:00–22:00"
+                                       ],
+                          "vinduerB":  [
+                                           "22:00–23:00"
+                                       ],
+                          "kioskVindu":  [
+                                             "22:00–23:00",
+                                             "22:00–23:00",
+                                             "",
+                                             "22:00–23:00",
+                                             "22:00–23:00",
+                                             ""
+                                         ],
+                          "nye":  [
+                                      "Buffet middag CCS",
+                                      "Frokostpakke Festplassen",
+                                      "Juleboder",
+                                      "Le Café",
+                                      "Pastabuffet barn CCS",
+                                      "SnackStop KSN",
+                                      "Sporty",
+                                      "Vaffelbod"
+                                  ],
+                          "kjokken":  "15:30–16:15",
+                          "kjNavn":  "Oppvarming før middag (skift 09:30–17:30)",
+                          "kjStatus":  "forslag"
+                      },
+                      {
+                          "ser":  46354,
+                          "ukedag":  "Lørdag",
+                          "dato":  "28.11.",
+                          "info":  "Stevnedag",
+                          "vinduerA":  [
+                                           "12:30–13:30",
+                                           "15:15–16:15",
+                                           "16:30–17:30",
+                                           "20:45–21:15"
+                                       ],
+                          "vinduerB":  [
+                                           "14:00–15:30"
+                                       ],
+                          "kioskVindu":  [
+                                             "14:00–15:30",
+                                             "14:00–15:30",
+                                             "",
+                                             "14:00–15:30",
+                                             "14:00–15:30",
+                                             ""
+                                         ],
+                          "nye":  [
+                                      "Buffet Oasen CCS",
+                                      "Kveldssnack Festplassen",
+                                      "Lunsj Foreplassen OA",
+                                      "Middag Festplassen"
+                                  ],
+                          "kjokken":  "15:15–16:15",
+                          "kjNavn":  "Oppvarming hovedkjøkken + Oasen før middag",
+                          "kjStatus":  "forslag"
+                      },
+                      {
+                          "ser":  46355,
+                          "ukedag":  "Søndag",
+                          "dato":  "29.11.",
+                          "info":  "Avreise",
+                          "vinduerA":  [
+                                           "10:50–11:35",
+                                           "12:30–13:30"
+                                       ],
+                          "vinduerB":  [
+                                           "10:00–11:00"
+                                       ],
+                          "kioskVindu":  [
+                                             "10:00–11:00",
+                                             "10:00–11:00",
+                                             "",
+                                             "",
+                                             "10:00–11:00",
+                                             ""
+                                         ],
+                          "nye":  [
+                                      "Lunsj Festplassen",
+                                      "Zerofood Festplassen A"
+                                  ],
+                          "kjokken":  "10:50–11:35",
+                          "kjNavn":  "Oppvarming thaisuppe før lunsj",
+                          "kjStatus":  "forslag"
+                      }
+                  ],
+    "fordager":  [
+                     {
+                         "ser":  46351,
+                         "ukedag":  "Onsdag",
+                         "dato":  "25.11.",
+                         "rader":  [
+                                       {
+                                           "navn":  "Pakking (pakkeområde oppe)",
+                                           "tid":  "09:00–16:00 (ca.)",
+                                           "verb":  "",
+                                           "innhold":  [
+                                                           "emballasje klargjøres (Jaco + Arielle)"
+                                                       ]
+                                       },
+                                       {
+                                           "navn":  "Forberedelse",
+                                           "tid":  "09:00–16:00 (ca.)",
+                                           "verb":  "",
+                                           "innhold":  [
+                                                           "gulasj allergi · kylling barn i batcher (Ulrich + Constansa)"
+                                                       ]
+                                       }
+                                   ],
+                         "mottak":  [
+                                        "kylling m/ saltbakte poteter",
+                                        "gulasj",
+                                        "pastabuffet barn"
+                                    ]
+                     },
+                     {
+                         "ser":  46352,
+                         "ukedag":  "Torsdag",
+                         "dato":  "26.11.",
+                         "rader":  [
+                                       {
+                                           "navn":  "Pakking",
+                                           "tid":  "09:00–17:00",
+                                           "verb":  "",
+                                           "innhold":  [
+                                                           "gulasj allergi · kylling barn + buffet"
+                                                       ]
+                                       },
+                                       {
+                                           "navn":  "Forberedelse",
+                                           "tid":  "12:00–20:00",
+                                           "verb":  "",
+                                           "innhold":  [
+                                                           "buffet fredag + lørdag · 19 ovnstraller"
+                                                       ]
+                                       }
+                                   ],
+                         "mottak":  [
+                                        "salater",
+                                        "biff stroganoff",
+                                        "medisterkaker",
+                                        "kjøttboller barn"
+                                    ]
+                     }
+                 ],
+    "mottak":  [
+                   {
+                       "ser":  46351,
+                       "varer":  [
+                                     "kylling m/ saltbakte poteter",
+                                     "gulasj",
+                                     "pastabuffet barn"
+                                 ]
+                   },
+                   {
+                       "ser":  46352,
+                       "varer":  [
+                                     "salater",
+                                     "biff stroganoff",
+                                     "medisterkaker",
+                                     "kjøttboller barn"
+                                 ]
+                   },
+                   {
+                       "ser":  46353,
+                       "varer":  [
+                                     "thaisuppe",
+                                     "kjøttkaker FP (allergi)"
+                                 ]
+                   }
+               ],
+    "kjokkenTider":  [
+                         {
+                             "navn":  "Oppvarming",
+                             "tider":  [
+                                           "09:30–17:30",
+                                           "10:00–18:00",
+                                           "09:00–16:00"
+                                       ]
+                         },
+                         {
+                             "navn":  "Pakking",
+                             "tider":  [
+                                           "17:00–22:00",
+                                           "09:00–10:30",
+                                           ""
+                                       ]
+                         },
+                         {
+                             "navn":  "Forberedelse",
+                             "tider":  [
+                                           "16:00–22:00",
+                                           "13:45–15:20 · 15:30–16:30",
+                                           ""
+                                       ]
+                         },
+                         {
+                             "navn":  "Oppvask",
+                             "tider":  [
+                                           "15:00–00:00",
+                                           "09:00–00:00",
+                                           "09:00–11:00 · 12:00–16:00"
+                                       ]
+                         },
+                         {
+                             "navn":  "Lager (bemannet)",
+                             "tider":  [
+                                           "21:00–23:00",
+                                           "13:00–18:30 · 21:00–23:00",
+                                           "13:00–15:30"
+                                       ]
+                         }
+                     ],
+    "kjNote":  "oppvarming kjerne ≥ 72 °C (fisk 62), kun 1 gang · varmeskap satt 75 °C, fylles ≥ 65 °C · kjøl/frys målt som tall",
+    "mottakTid":  "ca. 12:00–15:00",
+    "qa":  [
+               "Retail · SnackStop KSN: Incorrect time on 27.11",
+               "Retail · Juleboder: lack of image",
+               "Vaffelbod: står ikke i RETAIL Åpningstider 2026 / kjøreplan / masterplan — åpningstider og plassering må avklares (sjekkliste finnes, 04.11.2026)",
+               "Kjøreplan · 27.11. Pastabuffet til barne (CCS): lack of information",
+               "Kjøreplan · 28.11. Pastabuffet til barne (CCS): lack of information",
+               "Kjøreplan · 29.11. Buffetstsjoner (Oasen CCS): lack of information"
+           ],
+    "utelatt":  [
+                    "27.11. Kveldssnack (Z.38, gjennomstreket i kjøreplan)"
+                ],
+    "kilder":  {
+                   "retail":  "C:\\Users\\MartinReinhardt\\OneDrive - BRUNSTAD CHRISTIAN CHURCH\\ARR - shared\\01_BCC Event Avdelinger\\11_6 Consession Sales\\02_Årsoversikt\\2026\\RETAIL_Åpningstider_2026.xlsx (Adventstevnet_2026(1), endret 03.11.2026 14:34)",
+                   "kjoreplan":  "C:\\Users\\MartinReinhardt\\OneDrive - BRUNSTAD CHRISTIAN CHURCH\\ARR - shared\\03 Arrangementer\\2665 Adventstevner\\01_Event timetable \u0026 Productionplan\\2665_70 ADV Kjøreplan Event Timetable.xlsx (Event timetable (ADV 1), endret 10.11.2026 14:08)",
+                   "generert":  "10.11.2026 14:44"
+               }
+}
