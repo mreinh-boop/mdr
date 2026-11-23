@@ -12,7 +12,7 @@ Stack nach BCC-Vorgabe: **Vue 3 + Tailwind + BCC Component Library** (`@bcc-code
 
 Zwei Betriebsarten:
 - **Lokaler Testmodus** (ohne Supabase-Schlüssel): alles nur im Browser des Geräts.
-- **Sky-Modus** (mit Supabase): gemeinsame Daten für alle Kontrollører, Login per E-Mail-Code, Fotos im Storage. Änderungen gehen in eine Warteschlange auf dem Gerät und werden gesendet, sobald Netz da ist (Strandsonen/Festplassen).
+- **Sky-Modus** (mit Supabase): gemeinsame Daten für alle Kontrollører, Login mit E-Mail + Passwort, Fotos im Storage. Änderungen gehen in eine Warteschlange auf dem Gerät und werden gesendet, sobald Netz da ist (Strandsonen/Festplassen).
 
 ---
 
@@ -32,10 +32,9 @@ Zwei Betriebsarten:
 ### 2. Supabase: Datenbank
 1. Auf supabase.com Konto anlegen → **New project**: Name `ik-mat-kontroll`, Region **Frankfurt (eu-central-1)**, sicheres DB-Passwort (nur im Passwortmanager ablegen).
 2. **SQL Editor** → Inhalt von `supabase/migrations/0001_ikmat_schema.sql` einfügen → **Run**. (Darf mehrfach laufen.)
-3. **Authentication → Sign In / Providers → Email**: aktiviert lassen. **„Allow new users to sign up" ausschalten** – nur eingeladene Adressen kommen rein.
-4. **Authentication → Emails → Magic Link**: in die Vorlage den Code einfügen, z. B.
-   `<p>Koden din: <b>{{ .Token }}</b></p>` (dann geht Login auch per Code, nicht nur per Link – wichtig, wenn die App vom Startbildschirm geöffnet wird).
-5. **Authentication → Users → Invite user**: die Kontrollører einladen (zuerst nur dich selbst).
+3. **Authentication → Sign In / Providers → Email**: aktiviert lassen, **„Allow new users to sign up" ausschalten** – nur angelegte Nutzer kommen rein.
+4. **Authentication → Users → Add user → Create new user**: E-Mail + Passwort eintragen, **„Auto Confirm User" anhaken**. So werden die Kontrollører angelegt (zuerst nur du selbst). Es wird keine E-Mail verschickt – das Passwort gibst du der Person selbst.
+5. (Login per E-Mail-Link/Code braucht einen eigenen Mailserver/SMTP und ist deshalb für den Test nicht eingebaut.)
 6. **Project Settings → API**: `Project URL` und `anon public`-Key kopieren (der anon-Key ist öffentlich, kein Geheimnis – die Regeln in der Datenbank schützen die Daten).
 
 ### 3. Vercel: Hosting

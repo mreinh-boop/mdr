@@ -225,6 +225,10 @@ export function lagreAvvik(a) { upsert('avvik', rad.avvik(a)) }
 export function lukkAvvik(a) { a.status = 'lukket'; a.lukket = today(); lagreAvvik(a) }
 
 /* ---------- innlogging ---------- */
+export async function loggInn(epost, passord) {
+  const { error } = await sb.auth.signInWithPassword({ email: epost, password: passord })
+  if (error) throw error
+}
 export async function sendKode(epost) {
   const { error } = await sb.auth.signInWithOtp({ email: epost, options: { shouldCreateUser: false, emailRedirectTo: window.location.origin } })
   if (error) throw error
